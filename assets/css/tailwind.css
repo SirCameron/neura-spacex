@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__nuxt {
+  min-height: 100vh;
+}
+
+.router-link-active {
+  @apply p-4 border-b-2 border-b-black text-black;
+}
