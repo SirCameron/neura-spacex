@@ -8,12 +8,12 @@
       </div>
       <div v-if="isSaved">
         <div class="w-16 h-16 flex justify-center items-center">
-          <CheckIcon size="1.5x"/>
+          <CheckIcon size="3x"/> 
         </div>
       </div>
       <div v-if="!isSaved">
         <div class="w-16 h-16 flex justify-center items-center cursor-pointer" @click="$emit('onAdd')">
-          <PlusIcon size="1.5x"/>
+          <PlusIcon size="3x"/>
         </div>
       </div>
     </div>

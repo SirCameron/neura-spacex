@@ -22,7 +22,7 @@ export default defineEventHandler<Promise<Flight[]>>(async (event) => {
     console.log(error);
     throw createError({
       statusCode: 500,
-      statusMessage: "Unexpected error",
+      statusMessage: `Unexpected error:`,
     });
   }
 });

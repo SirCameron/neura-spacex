@@ -7,7 +7,7 @@
         <div class="mt-1">{{ date }}</div>
       </div>
       <div class="w-16 h-16 flex justify-center items-center cursor-pointer" @click="$emit('onDelete')">
-        <XIcon size="1.5x" />
+        <XIcon size="3x" />
       </div>
     </div>
   </div>
