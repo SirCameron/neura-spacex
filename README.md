@@ -4,7 +4,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Start up Mongo with Docker
 
-Start the development server on `http://localhost:3000`:
+Start MongoDB with docker compose:
 
 ```bash
 docker-compose up
@@ -15,17 +15,7 @@ docker-compose up
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
 yarn install
-
-# bun
-bun install
 ```
 
 rename `.env.example` to `.env`. It includes:
